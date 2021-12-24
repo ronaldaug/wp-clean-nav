@@ -40,7 +40,7 @@
 
 2. [Add below code in functions.php](#functions)
 
-3. [Call it in Template](#callit)
+3. [Call it somewhere in your wordpress template](#callit)
 
 
 ### 1. Create `clean-menu.php` file in your theme with below code ( CLEAN_Menu ).
@@ -129,7 +129,7 @@ e.g `classes/clean-menu.php` <a name="createfile"></a>
 
 ### 2. Add below code in functions.php <a name="functions"></a>
 
-```
+```php
 /* -------------------------------------------
 Register Menu
 ---------------------------------------------- */
@@ -168,7 +168,7 @@ function clean_menus(string $name){
 --------------
 
 
-### 3. Call it in Template <a name="callit"></a>
-```
+### 3. Call it somewhere in your wordpress template <a name="callit"></a>
+```php
 <?= clean_menus(); ?>
 ```

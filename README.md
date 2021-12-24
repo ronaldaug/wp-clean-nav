@@ -40,9 +40,11 @@
 ```php
    /**
    * Get Menu Array
-   *
+   * 
    * @param string $name
    * @return array
+   * 
+   * Ref - https://wordpress.stackexchange.com/questions/170033/convert-output-of-nav-menu-items-into-a-tree-like-multidimensional-array/304884#304884
    */
 function get_menu_array(string $name) : array {
 

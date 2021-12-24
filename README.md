@@ -49,7 +49,15 @@ e.g `classes/clean-menu.php` <a name="createfile"></a>
 
 ```php
 <?php
-
+    /**
+     *  CLEAN MENU
+     * 
+     * No extra classes from Wordpress
+     * Has active class
+     * Build with recursive function and it can generate multiple sub-menus ( 2nd level, 3rd level, 4th level ..etc)
+     * Author - ronaldaug
+     * 
+     */
     class CLEAN_menu
     {
         /**

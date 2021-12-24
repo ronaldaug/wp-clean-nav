@@ -139,8 +139,8 @@ function register_clean_menu(){
 add_action( 'after_setup_theme', 'register_clean_menu' );
 
 register_nav_menus( array(
-    'primary' => __( 'Top Menu', 'kthm' ),
-    'secondary' => __( 'Other pages Menu', 'kthm' ),
+    'primary' => __( 'Top Menu', 'your_theme_name' ),
+    'secondary' => __( 'Other pages Menu', 'your_theme_name' ),
 ) );
 
 
